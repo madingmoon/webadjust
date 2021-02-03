@@ -15,6 +15,7 @@ module.exports = {
 			})
 		]
 	},
+	publicPath: './',
 	chainWebpack: config => {
 		config.plugin('define').tap(args => {
 			const argv = process.argv
